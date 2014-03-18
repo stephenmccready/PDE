@@ -1,8 +1,11 @@
 PDE
 ===
 
-CMS Prescription Drug Event file processing<br />
+Centers for Medicare and Medicaid Services (CMS) Prescription Drug Event file processing<br />
 <i>Developed in MS SQL</i>
+
+http://cms.hhs.gov/Medicare/Prescription-Drug-Coverage/PrescriptionDrugCovContra/RxContracting_ReportingOversight.html
+
 
 <b>ImportPDE</b><br />
 Imports the detail records from the PDE submission file into a SQL table. (<i>requires function nCobol2Int</i>)
