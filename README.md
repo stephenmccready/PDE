@@ -2,6 +2,7 @@ PDE
 ===
 
 CMS Prescription Drug Event file processing<br />
+<i>Developed in MS SQL</i>
 
 <b>ImportPDE</b><br />
 Imports the detail records from the PDE submission file into a SQL table. (<i>requires function nCobol2Int</i>)
