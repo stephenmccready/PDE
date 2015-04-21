@@ -76,7 +76,9 @@ Select	Distinct
 ,		SubString(col001,378,2) As [Pharmacy Service Type]
 ,		SubString(col001,380,2) As [Patient Residence]
 ,		SubString(col001,382,2) As [Submission Clarification Code]
-,		SubString(col001,384,129) As [FILLER02]
+,		SubString(col001,384,1) As [Adjustment Reason Code Qualifier]
+,		SubString(col001,385,12) As [Adjustment Reason Code]
+,		SubString(col001,384,116) As [FILLER02]
 ,		@filename As PDE_FileName
 ,		GETDATE() As dateImported
 ,		' ' As RejectFlag
